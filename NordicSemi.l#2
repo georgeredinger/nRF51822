@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -104,7 +104,7 @@
 <smd name="31" x="3.02" y="-0.2" dx="1" dy="0.25" layer="1" rot="R180"/>
 <smd name="30" x="3.02" y="0.2" dx="1" dy="0.25" layer="1" rot="R180"/>
 <smd name="29" x="3.02" y="0.6" dx="1" dy="0.25" layer="1" rot="R180"/>
-<smd name="28" x="3.02" y="1" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="3328" x="3.02" y="1" dx="1" dy="0.25" layer="1" rot="R180"/>
 <smd name="27" x="3.02" y="1.4" dx="1" dy="0.25" layer="1" rot="R180"/>
 <smd name="26" x="3.02" y="1.8" dx="1" dy="0.25" layer="1" rot="R180"/>
 <smd name="25" x="3.02" y="2.2" dx="1" dy="0.25" layer="1" rot="R180"/>
@@ -220,57 +220,6 @@
 </gates>
 <devices>
 <device name="" package="QFN48">
-<connects>
-<connect gate="G$1" pin="ANT1" pad="31"/>
-<connect gate="G$1" pin="ANT2" pad="32"/>
-<connect gate="G$1" pin="AVDD" pad="35"/>
-<connect gate="G$1" pin="AVDD_2" pad="36"/>
-<connect gate="G$1" pin="DCC" pad="2"/>
-<connect gate="G$1" pin="DEC1" pad="39"/>
-<connect gate="G$1" pin="DEC2" pad="29"/>
-<connect gate="G$1" pin="DIE_PAD" pad="GND"/>
-<connect gate="G$1" pin="P0.00" pad="4"/>
-<connect gate="G$1" pin="P0.01" pad="5"/>
-<connect gate="G$1" pin="P0.02" pad="6"/>
-<connect gate="G$1" pin="P0.03" pad="7"/>
-<connect gate="G$1" pin="P0.04" pad="8"/>
-<connect gate="G$1" pin="P0.05" pad="9"/>
-<connect gate="G$1" pin="P0.06" pad="10"/>
-<connect gate="G$1" pin="P0.07" pad="11"/>
-<connect gate="G$1" pin="P0.08" pad="14"/>
-<connect gate="G$1" pin="P0.09" pad="15"/>
-<connect gate="G$1" pin="P0.10" pad="16"/>
-<connect gate="G$1" pin="P0.11" pad="17"/>
-<connect gate="G$1" pin="P0.12" pad="18"/>
-<connect gate="G$1" pin="P0.13" pad="19"/>
-<connect gate="G$1" pin="P0.14" pad="20"/>
-<connect gate="G$1" pin="P0.15" pad="21"/>
-<connect gate="G$1" pin="P0.16" pad="22"/>
-<connect gate="G$1" pin="P0.17" pad="25"/>
-<connect gate="G$1" pin="P0.18" pad="26"/>
-<connect gate="G$1" pin="P0.19" pad="27"/>
-<connect gate="G$1" pin="P0.20" pad="28"/>
-<connect gate="G$1" pin="P0.21" pad="40"/>
-<connect gate="G$1" pin="P0.22" pad="41"/>
-<connect gate="G$1" pin="P0.23" pad="42"/>
-<connect gate="G$1" pin="P0.24" pad="43"/>
-<connect gate="G$1" pin="P0.25" pad="44"/>
-<connect gate="G$1" pin="P0.26" pad="45"/>
-<connect gate="G$1" pin="P0.27" pad="46"/>
-<connect gate="G$1" pin="P0.28" pad="47"/>
-<connect gate="G$1" pin="P0.29" pad="48"/>
-<connect gate="G$1" pin="P0.30" pad="3"/>
-<connect gate="G$1" pin="SWDCLK" pad="24"/>
-<connect gate="G$1" pin="SWDIO/NRESET" pad="23"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VDD_2" pad="12"/>
-<connect gate="G$1" pin="VDD_PA" pad="30"/>
-<connect gate="G$1" pin="VSS" pad="13"/>
-<connect gate="G$1" pin="VSS_2" pad="33"/>
-<connect gate="G$1" pin="VSS_3" pad="34"/>
-<connect gate="G$1" pin="XC1" pad="37"/>
-<connect gate="G$1" pin="XC2" pad="38"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>

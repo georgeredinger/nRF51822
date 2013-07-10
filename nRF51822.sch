@@ -3386,7 +3386,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="144.78" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="111"/>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="121.92" width="0.6096" layer="111"/>
 <wire x1="2.54" y1="121.92" x2="144.78" y2="121.92" width="0.6096" layer="111"/>
-<text x="7.62" y="114.3" size="5.08" layer="111">RADIO</text>
+<text x="7.62" y="114.3" size="3.81" layer="111">RADIO</text>
 <wire x1="2.54" y1="124.46" x2="43.18" y2="124.46" width="0.6096" layer="111"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="182.88" width="0.6096" layer="111"/>
 <wire x1="43.18" y1="182.88" x2="2.54" y2="182.88" width="0.6096" layer="111"/>
@@ -3399,9 +3399,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="144.78" y1="124.46" x2="144.78" y2="182.88" width="0.6096" layer="111"/>
 <wire x1="144.78" y1="182.88" x2="93.98" y2="182.88" width="0.6096" layer="111"/>
 <wire x1="93.98" y1="182.88" x2="93.98" y2="124.46" width="0.6096" layer="111"/>
-<text x="5.08" y="175.26" size="5.08" layer="111">SWITCH</text>
-<text x="48.26" y="175.26" size="5.08" layer="111">LEDS</text>
-<text x="96.52" y="175.26" size="5.08" layer="111">POWER</text>
+<text x="5.08" y="175.26" size="3.81" layer="111">SWITCH</text>
+<text x="48.26" y="175.26" size="3.81" layer="111">LEDS</text>
+<text x="96.52" y="175.26" size="3.81" layer="111">POWER</text>
 <wire x1="147.32" y1="124.46" x2="246.38" y2="124.46" width="0.6096" layer="111"/>
 <wire x1="246.38" y1="124.46" x2="246.38" y2="182.88" width="0.6096" layer="111"/>
 <wire x1="246.38" y1="182.88" x2="147.32" y2="182.88" width="0.6096" layer="111"/>
@@ -3410,8 +3410,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="246.38" y1="121.92" x2="246.38" y2="38.1" width="0.6096" layer="111"/>
 <wire x1="246.38" y1="38.1" x2="147.32" y2="38.1" width="0.6096" layer="111"/>
 <wire x1="147.32" y1="38.1" x2="147.32" y2="121.92" width="0.6096" layer="111"/>
-<text x="149.86" y="175.26" size="5.08" layer="111">CONNECTORS</text>
-<text x="149.86" y="114.3" size="5.08" layer="111">ANTENNA</text>
+<text x="149.86" y="175.26" size="3.81" layer="111">CONNECTORS</text>
+<text x="149.86" y="114.3" size="3.81" layer="111">ANTENNA</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
